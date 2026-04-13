@@ -44,3 +44,32 @@ def logarithm(a, b):
 
 def exponent(a, b):
     return a ** b
+
+
+
+def add(a, b):
+    return a + b
+
+def sub(a, b):
+    return a - b
+
+def mul(a, b):
+    return a * b
+
+def div(a, b):
+    if a == 0:
+        raise ZeroDivisionError("Cannot divide by zero (a cannot be 0).")
+    return b / a
+
+def log(a, b):
+    if a <= 0:
+        raise ValueError("Logarithm base must be positive.")
+    if a == 1:
+        raise ValueError("Logarithm base cannot be 1.")
+    if b <= 0:
+        raise ValueError("Logarithm argument must be positive.")
+    return math.log(b, a)
+
+def exp(a, b):
+    return a ** b
+
