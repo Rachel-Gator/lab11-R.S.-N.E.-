@@ -38,8 +38,6 @@ def exponent(a, b):
 
 
 
-import math
-
 def add(a, b):
     return a + b
 
