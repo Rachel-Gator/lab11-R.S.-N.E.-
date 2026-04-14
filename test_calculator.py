@@ -45,7 +45,7 @@ class TestCalculator(unittest.TestCase):
     def test_log_invalid_argument(self): # 1 assertion
     #     # call log function inside, example:
         with self.assertRaises(ValueError):
-        logarithm(2, 0)
+            logarithm(2, 0)
 
 
     def test_hypotenuse(self): # 3 assertions
@@ -55,12 +55,12 @@ class TestCalculator(unittest.TestCase):
 
     def test_sqrt(self): # 3 assertions
 
-    with self.assertRaises(ValueError):
-        square_root(-25)
-    with self.assertRaises(ValueError):
-        square_root(-9)
-    with self.assertRaises(ValueError):
-        square_root(-27)
+        with self.assertRaises(ValueError):
+            square_root(-25)
+        with self.assertRaises(ValueError):
+            square_root(-9)
+        with self.assertRaises(ValueError):
+            square_root(-27)
 
     ##########################
 
