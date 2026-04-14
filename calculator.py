@@ -1,6 +1,6 @@
-#https://github.com/Rachel-Gator/lab11-R.S.-N.E.-.git
-#Partner 1 Rachel Stribling
-#Partner 2 Nicolas Estevez
+# https://github.com/Rachel-Gator/lab11-R.S.-N.E.-
+# Partner 1: Rachel Stribling
+# Partner 2: Nicolas Estevez
 
 """
 calculator.py
@@ -48,3 +48,4 @@ def logarithm(a, b):
 
 def exp(a, b):
     return a ** b
+
